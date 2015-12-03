@@ -24,7 +24,8 @@ nav {
 }
 
 #logo {
-	height: 292px;
+	padding-top:50px;
+	padding-bottom:50px;
 	background-color: #323232;
 	color: #FFFFFF;
 	text-align: center;
@@ -32,10 +33,7 @@ nav {
 }
 
 #logo h1 {
-	display: block;
 	font-size: 3em;
-	vertical-align: middle;
-	padding-top: 130px;
 }
 
 #menu {
