@@ -5,8 +5,7 @@
 }
 
 div {
-	background-color: #D8D8D8;
-	border: 1px solid black;
+	border:1px solid black;
 	box-sizing: border-box;
 }
 /***Header code***/
@@ -24,8 +23,8 @@ nav {
 }
 
 #logo {
-	padding-top:150px;
-	padding-bottom:50px;
+	padding-top:130px;
+	padding-bottom:90px;
 	background-color: #323232;
 	color: #FFFFFF;
 	text-align: center;
@@ -33,7 +32,7 @@ nav {
 
 #logo h1 {
 	font-size: 3em;
-	padding-bottom:40px;
+	padding-bottom:10px;
 }
 
 #menu {
@@ -58,6 +57,10 @@ nav {
 	padding:40px;
 }
 /***section code***/
+section {
+	background: url(contentBackground.png);
+}
+
 #main {
 	height: 330px;
 	background: url(pic01.jpg);
@@ -66,11 +69,66 @@ nav {
 }
 
 #content {
-	height: 598px;
+	padding-top:100px;
+	padding-bottom:100px;
+	background: url(contentBackground.png);
+}
+
+div#submenu {
+	width:350px;
+	height:400px;
+	position:absolute;
+}
+
+
+#submenu li {
+	list-style-type: none;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	border-top: 1px solid #E5E5E5;
+}
+
+#submenu a:link {
+	color:#171717;
+}
+li#submenuHeader {
+	padding-bottom: 30px;
+	color: #B31D57;
+	font-size:1.6em;
+	border:none;
+}
+
+.bottomborder {
+	border-bottom: 1px solid #E5E5E5;
+}
+
+div #paragraph {
+	margin-left:400px;
+}
+#content th {
+	text-align: left;
+	color: #B31D57;
+}
+
+#content h2 {
+	color: #B31D57;
+	line-height: 20px;
+	padding-bottom:40px;
+	padding-top:10px;
+}
+
+#paragraph span {
+	color: #6F6F6F;
+	font-size:0.5em;
+}
+
+#paragraph p {
+	line-height: 30px;
 }
 
 #thumbnail {
 	height: 659px;
+	background-color: #A80154;
 }
 
 /***footer code***/
