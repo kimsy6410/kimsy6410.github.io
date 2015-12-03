@@ -5,7 +5,7 @@
 }
 
 div {
-
+	border: 1px solid black;
 	box-sizing: border-box;
 }
 /***Header code***/
@@ -41,6 +41,10 @@ nav {
 	height: 100px;
 	background-color: #B31D57; 
 	text-align:center;
+}
+
+#menu li {
+	border:none;
 }
 
 #menu a:link {
@@ -83,7 +87,7 @@ div#submenu {
 }
 
 
-#submenu li {
+li {
 	list-style-type: none;
 	padding-top: 10px;
 	padding-bottom: 15px;
@@ -182,9 +186,34 @@ div #paragraph {
 }
 /***footer code***/
 #footer {
-	height: 475px;
+	padding-top:60px;
+	padding-bottom:60px;
+	background-color: #1E1B1A;
 }
 
+#footerCover {
+	background-color: #1E1B1A
+}
+
+li#footerMenuHeader1 {
+	padding-bottom: 30px;
+	color: #FFFFFF;
+	font-size:1.2em;
+	border:none;
+}
+
+.footerMenu1 {
+	width:354px;
+	display:inline-block;
+}
+
+.footerMenu1 li {
+	border-top: 1px solid #2D2926;
+}
+
+.footerMenu1 a:link {
+	color:#B1B1B1;
+}
 #copyright {
 	height: 197px;
 }
