@@ -99,6 +99,10 @@ a:hover {
 	text-decoration:none;
 }
 
+a:visited {
+	color:#171717;
+}
+
 li#submenuHeader {
 	padding-bottom: 30px;
 	color: #B31D57;
