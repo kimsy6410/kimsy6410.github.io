@@ -5,7 +5,7 @@
 }
 
 div {
-	border:1px solid black;
+
 	box-sizing: border-box;
 }
 /***Header code***/
@@ -14,13 +14,15 @@ div {
 	width: 100%;
 }
 
-nav {
-	background-color: #B31D57;
-}
 .container {
 	max-width:1170px;
 	margin:0 auto;
 }
+
+nav {
+	background-color: #B31D57;
+}
+
 
 #logo {
 	padding-top:130px;
@@ -57,15 +59,16 @@ nav {
 	padding:40px;
 }
 /***section code***/
-section {
-	background: url(contentBackground.png);
-}
-
 #main {
-	height: 330px;
+	padding-top:200px;
+	padding-bottom:150px;
 	background: url(pic01.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
+}
+
+#contentCover {
+	background: url(contentBackground.png);
 }
 
 #content {
@@ -76,7 +79,6 @@ section {
 
 div#submenu {
 	width:350px;
-	height:400px;
 	position:absolute;
 }
 
@@ -88,9 +90,15 @@ div#submenu {
 	border-top: 1px solid #E5E5E5;
 }
 
-#submenu a:link {
+a:link {
 	color:#171717;
 }
+
+a:hover {
+	color:#171717;
+	text-decoration:none;
+}
+
 li#submenuHeader {
 	padding-bottom: 30px;
 	color: #B31D57;
@@ -126,11 +134,48 @@ div #paragraph {
 	line-height: 30px;
 }
 
-#thumbnail {
-	height: 659px;
-	background-color: #A80154;
+#thumbnamilCover {
+		background-color: #A80154
 }
 
+#thumbnail {
+	background-color: #A80154;
+	padding-top:100px;
+	padding-bottom:100px;
+	color: #FFFFFF;
+}
+
+#column1,#column2,#column3,#column4 {
+	width:282px;
+	display:inline-block;
+}
+
+#column2,#column3,#column4 {
+	margin-left:8.5px;
+}
+
+
+.thumbnailimg {
+	width:282px;
+}
+
+#thumbnail h3 {
+	padding-bottom: 30px;
+}
+
+#thumbnail p {
+	padding-top:35px;
+	padding-bottom: 50px;
+	color: rgba(255,255,255,.7);
+}
+
+#thumbnail a {
+	text-decoration: none;
+	padding:15px 60px;
+	background-color: #BB005D;
+	margin-top:20px;
+	color:#FFFFFF;
+}
 /***footer code***/
 #footer {
 	height: 475px;
