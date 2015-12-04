@@ -220,7 +220,7 @@ li#footerMenuHeader1 {
 
 .footerMenu1 {
 	width:354px;
-	display:inline-block;
+	float:left;
 }
 
 .footerMenu1 li {
@@ -233,6 +233,10 @@ li#footerMenuHeader1 {
 
 .footerMenu1 a:visited {
 	color:#B1B1B1;
+}
+
+#footermenu2 {
+	margin-left:20px;
 }
 
 #copyright {
