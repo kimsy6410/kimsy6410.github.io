@@ -230,6 +230,11 @@ li#footerMenuHeader1 {
 .footerMenu1 a:link {
 	color:#B1B1B1;
 }
+
+.footerMenu1 a:visited {
+	color:#B1B1B1;
+}
+
 #copyright {
 	height: 197px;
 }
