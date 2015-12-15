@@ -1,0 +1,105 @@
+body {
+	margin:0;
+	padding:0;
+	font-family: "Raleway", sans-serif;
+	font-size:12px;
+}
+
+div {
+	border: 1px solid black;
+}
+.wrapper {
+	margin:0 auto;
+	width:100%;
+}
+
+.container {
+	width:1170px;
+	margin:0 auto;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+/*header code*/
+header {
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+#logo {
+	width:300px;
+	float:left;
+}
+
+#logo h1{
+	font-family:'Josefin Slab';
+	font-size:50px;
+	font-weight:lighter;
+}
+
+nav {
+	float:right;
+	font-size:15px;
+	font-weight:bold;
+}
+
+#menu ul {
+	list-style-type: none;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+#menu li {
+	display: inline-block;
+	margin-left:60px;
+}
+
+#menu a:link {
+	color:#999999;
+	text-decoration:none;
+}
+
+#menu a:hover {
+	color:#000000;
+}
+
+/*section code*/
+#section1 {
+	position:absolute;
+}
+
+.section1picture {
+
+}
+
+.section1title {
+	position:relative;
+	width:600px;
+	right:-150px;
+	display:inline-block;
+
+}
+.section1Paragraph {
+	position:relative;
+	width:250px;
+}
+
+h2 {
+	font-size:70px;
+	font-family:'Josefin Slab';
+}
+
+.section1Paragraph p {
+	font-size:16px;
+}

@@ -47,7 +47,7 @@
 	color: #C3BCB8;
 }
 
-#button {
+nav {
 	width:496px;
 	padding-top:20px;
 	padding-bottom:20px;
@@ -92,13 +92,13 @@
 
 .thumbnail12 {
 	float:left;
-	width:300px;
+	width:370px;
 	color:#979797;
 }
 
 .thumbnail3{
 	float:right;
-	width:300px;
+	width:370px;
 	color:#979797;
 }
 
@@ -121,7 +121,7 @@
 }
 
 #thumbnail2 {
-	margin-left:135px;
+	margin-left:30px;
 }
 .thumbnail3 h2 {
 	font-size:1em;
@@ -212,7 +212,7 @@ a {
 	list-style-type: none;
 }
 
-.footerMenuHeader{
+h4{
 	color:#FFFFFF;
 	padding-top:20px;
 	padding-bottom:20px;
