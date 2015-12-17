@@ -4,6 +4,7 @@ body {
 	color:#595959;
 	margin:0;
 	padding:0;
+	padding-top:55px;
 }
 
 .wrapper {
@@ -30,7 +31,18 @@ body {
 .clearfix { display: block; }
 /* close commented backslash hack */
 
+.active {
+	font-weight:bold;
+}
+
 /*header code*/
+header {
+	position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+}
 
 nav {
 	float:right;
