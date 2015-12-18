@@ -7,6 +7,8 @@ body {
 	padding-top:55px;
 }
 
+div {border:1px solid black;}
+
 .wrapper {
 	max-width: 1170px; 
 	margin:0 auto;s
@@ -110,21 +112,21 @@ nav a:hover {
 	height:100%;
 }
 
-#paragraph {
+.paragraph {
 	width:568px;
 	float:right;
 	background-color: #C68DCC;
 	border: 1px solid #B658C0;
 }
 
-#paragraph p {
+.paragraph p {
 	padding:193px 100px 192px 100px;
 	font-size:1.2em;
 	line-height: 29px;
 	color:#E9E9E9;
 }
 
-#paragraph span {
+.paragraph span {
 	font-size: 2.0em;
 	font-weight:bold;
 }
@@ -159,6 +161,18 @@ nav a:hover {
 	width:370px;
 	float:right;
 }
+
+/*contact main code*/
+#contactSection1 {
+	width:100%;
+}
+
+#contactSection1 img{
+	width:100%;
+	box-shadow: 20px 20px 30px #6D6D6D;
+}
+
+
 
 /*footer code*/
 footer {
