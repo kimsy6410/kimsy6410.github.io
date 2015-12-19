@@ -165,6 +165,7 @@ nav a:hover {
 /*contact main code*/
 #contactSection1 {
 	width:100%;
+	position:relative;
 }
 
 #contactSection1 img{
