@@ -39,6 +39,10 @@ div {
 	text-decoration:none;
 }
 
+a:link {
+	color:#FFFFFF;
+}
+
 a:hover {
 	text-decoration: underline;
 }
