@@ -1,0 +1,155 @@
+body {
+	background-color: #E4F3EF;
+	font-family:Helvetica,Arial;
+	font-size:12px;
+	color:#595959;
+	margin:0;
+	padding:0;
+}
+
+div {
+	border: 1px solid black;
+}
+
+.wrapper {
+	max-width:1170px;
+	margin:0 auto;
+}
+
+.container {
+	width:1170px;
+	margin:0 auto;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.forLink{
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+nav a:visited {
+	color:#FFFFFF;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+/*Header Code*/
+header {
+	background-color: #A5BFB8;
+	box-shadow: 0px 2px 4px 0px;
+	position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+nav {
+	float:right;
+	padding-top:25px;
+	padding-bottom:25px;
+	font-size:1.2em;
+	color:#FFFFFF;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	display:inline-block;
+	padding-left:30px;
+}
+
+#homeList {
+	border-right:1px solid #595959;
+	padding-right:30px;
+}
+
+#homeIcon {
+	font-size:1.2em;
+}
+ 
+/*Section 1 code*/
+#section1 {
+	background: url(./images/backgroundPic1.png);
+	background-repeat: no-repeat;
+	margin-top:100px;
+}
+
+#nameTag {
+	width:500px;
+	padding-top:130px;
+	padding-bottom:100px;
+}
+
+#section1 p {
+	font-size:1.2em;
+	line-height: 30px;
+	padding:0px 100px 130px 100px;
+}
+
+#section1 span {
+	font-size: 2.0em;
+	font-weight:bold;
+}
+
+#downIcon {
+	text-align: center;
+}
+
+/*section 2 code*/
+.projects {
+	width:370px;
+	padding-top:100px;
+	padding-bottom:100px;
+}
+
+.projects img {
+	width:100%;
+}
+
+.projects p {
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+#project1 {
+	float:left;
+}
+
+#project2 {
+	float:left;
+	margin-left:30px;
+}
+
+#project3 {
+	float:right;
+}
+
+/*footer code*/
+footer {
+	text-align: center;
+	background-color: #A5BFB8;
+	color:#FFFFFF; 
+	padding-top:10px;
+	padding-bottom:10px;
+}

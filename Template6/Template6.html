@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Template 6</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<script>
+		function projectList (imgFile) {
+			var obj = document.getElementById("section2");
+			obj.src= "./images"+imgFile;
+		}
+	</script>
+</head>
+<body>
+<header>
+	<div class="clearfix container">
+		<nav>
+			<ul>
+				<li id="homeList"><i class="fa fa-home" id="homeIcon"></i>&nbsp;<a href="#" class="forLink onHover">Home</li></a>
+				<li><i class="fa fa-envelope"></i>&nbsp;<a href="#" class="forLink onHover">Contact</li></a>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<section>
+	<div id="section1">
+		<div class="container">
+			<img src="./images/nameTag.png" id="nameTag"/>
+			<p><span>Lorem</span> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <span>ullamco</span> laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui <span>officia</span> deserunt mollit anim id est laborum.</p>
+			<div id="downIcon">
+				<span onclick="projectList('ProjectPreview.png');" class="pointer"><i class="fa fa-angle-double-down fa-4x"></i></span>
+			</div>
+		</div>
+	</div>
+	<div class="wrapper">
+		<div id="section2" class="clearfix">
+			<div class="projects" id="project1">
+				<h1>Project 1</h1>
+				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+				<img src="./images/ProjectPreview.png" />
+			</div>
+			<div class="projects" id="project2">
+				<h1>Project 2</h1>
+				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+				<img src="./images/ProjectPreview.png" />
+			</div>
+			<div class="projects" id="project3">
+				<h1>Project 3</h1>
+				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+				<img src="./images/ProjectPreview.png" />
+			</div>
+		</div>
+	</div>
+</section>
+<footer>
+	<p>Website design and content &copy; 2015 Amanda Kim</p>
+</footer>
+</body>
+</html>
