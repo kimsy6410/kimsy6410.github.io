@@ -218,16 +218,17 @@ nav a:hover {
 	padding-top:30px;
 }
 
-#about {
-	float:left;
-	padding-left:450px;
 
+#about { 
+	margin: 0 auto; 
+	width: 200px; 
 }
 
-#aboutAnswer {
-	float:right;
-	padding-right:450px;
+#about ul li {
+	display: inline-block; 
+	width: 49%; 
 }
+
 /*footer code*/
 footer {
 	text-align: center;
