@@ -117,6 +117,15 @@ nav ul li {
 	text-align: center;
 }
 
+#downIcon a:link {
+	color: #595959;
+	font-size: 20px;
+}
+
+#downIcon a:visited {
+	color: #595959;
+}
+
 /*section 2 code*/
 .projects {
 	width:370px;

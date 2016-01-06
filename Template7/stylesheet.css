@@ -1,0 +1,125 @@
+div {border: 1px solid black;}
+
+body {
+	margin:0;
+	padding:0;
+	font-family:Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+	color:#FDFDFD;
+	font-size:15px;
+}
+
+.wrapper {
+	max-width:1170px;
+	margin:0 auto;
+}
+
+a:link {
+	text-decoration: none;
+	color:#FDFDFD;
+}
+
+a:hover {color:#FDFDFD;}
+
+a:visited {color:#FDFDFD;}
+
+
+.container {
+	width:1170px;
+	margin:0 auto;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.right {
+	float:right;
+}
+
+.left {
+	float:left;
+}
+
+/**************Header code****************/
+
+#mainHeader {
+	background-color:#393939;
+	position:fixed;
+	left: 0;
+    top: 0;
+	z-index:2;
+	width:100%;
+}
+
+#logo {
+	width:120px;
+	padding-top:9px;
+	padding-bottom:5px;
+}
+
+#logo img{
+	width:100%;
+}
+
+header ul {
+	margin:0;
+}
+
+header li {
+	display:inline-block;
+	padding: 20px;
+}
+
+nav a:link {
+	text-decoration: none;
+	color:#FFE8DB;
+}
+
+nav li:hover {
+	background-color:#5F5F5F; 
+}
+
+nav a:visited {
+	color: #FFE8DB;
+}
+
+/**************Section Code****************/
+#section1 {
+	background:	linear-gradient(to top, #4B403C,transparent 50%),
+				linear-gradient(#393939 2%,transparent 60%),
+				url("images/mainImage1.jpg");
+	background-size: cover;
+	margin-top:50px;
+	text-align: center;
+}
+
+#title {
+	font-size: 40px;
+	padding:50px 15px 25px;
+	border-bottom:3px solid;
+	display:inline-block;
+}
+
+#largeIcon {
+	width:636px;
+	margin:0 auto 50px;
+}
+
+#largeIcon img {
+	width:100%;
+}
+
+#downIcon {
+	padding-bottom:200px;
+}
+
