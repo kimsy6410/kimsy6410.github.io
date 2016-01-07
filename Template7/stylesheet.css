@@ -74,7 +74,26 @@ a:visited {color:#FDFDFD;}
 header ul {
 	margin:0;
 }
+/***test***/
+header ul ul {
+	position:absolute;
+	top:100%;
+	background-color: #393939;
+	padding:0;
+	margin:0;
+	width:100px;
+}
 
+header ul ul li {
+	width:49%;
+}
+
+nav ul li:hover > ul
+{
+	display:block;
+}
+
+/***test***/
 header li {
 	display:inline-block;
 	padding: 20px;
