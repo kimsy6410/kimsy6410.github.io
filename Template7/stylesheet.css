@@ -76,6 +76,8 @@ header ul {
 }
 /***test***/
 header ul ul {
+	display:none;
+	left:0;
 	position:absolute;
 	top:100%;
 	background-color: #393939;
@@ -84,17 +86,18 @@ header ul ul {
 	width:100px;
 }
 
-header ul ul li {
-	width:49%;
+header ul li.dropdown:hover ul.dropdownMenu { 
+	display: block; 
 }
 
-nav ul li:hover > ul
-{
+
+header ul.dropdownMenu li {
 	display:block;
 }
 
 /***test***/
 header li {
+	position:relative;
 	display:inline-block;
 	padding: 20px;
 }
