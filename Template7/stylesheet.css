@@ -99,7 +99,11 @@ header ul.dropdownMenu li {
 header li {
 	position:relative;
 	display:inline-block;
-	padding: 20px;
+}
+
+nav a {
+	display:block;
+	padding:20px;
 }
 
 nav a:link {
