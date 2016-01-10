@@ -95,6 +95,10 @@ ul li {
 ul .dropdown:hover .dropdownMenu {
   display: block;
 }
+
+.dropdownMenu li {
+	display:block;
+}
 /***For dropdown Effect end***/
 
 
