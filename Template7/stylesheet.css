@@ -1,4 +1,4 @@
-div {border: 1px solid black;}
+/*div {border: 1px solid black;}*/
 
 body {
 	margin:0;
@@ -74,32 +74,29 @@ a:visited {color:#FDFDFD;}
 header ul {
 	margin:0;
 }
-/***test***/
-header ul ul {
-	display:none;
-	left:0;
-	position:absolute;
-	top:100%;
-	background-color: #393939;
-	padding:0;
-	margin:0;
-	width:100px;
+
+/***For dropdown Effect***/
+.dropdownMenu {
+  padding: 0;
+  margin:0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  background-color: #393939;
+
 }
 
-header ul li.dropdown:hover ul.dropdownMenu { 
-	display: block; 
+ul li {
+  display: inline-block;
+  position: relative;
 }
 
-
-header ul.dropdownMenu li {
-	display:block;
+ul .dropdown:hover .dropdownMenu {
+  display: block;
 }
+/***For dropdown Effect end***/
 
-/***test***/
-header li {
-	position:relative;
-	display:inline-block;
-}
 
 nav a {
 	display:block;
@@ -117,6 +114,10 @@ nav li:hover {
 
 nav a:visited {
 	color: #FFE8DB;
+}
+
+.dropdownMenu a {
+	padding:20px 40px 20px 20px;
 }
 
 /**************Section Code****************/
