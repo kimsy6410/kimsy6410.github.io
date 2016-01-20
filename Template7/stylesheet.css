@@ -6,7 +6,7 @@ body {
 	font-family:Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
 	color:#FDFDFD;
 	font-size:15px;
-	background:	linear-gradient(rgba(74,63,58,0.95),rgba(74,63,58,0.95)),
+	background:	linear-gradient(rgba(74,63,58,0.80),rgba(74,63,58,0.80)),
 				url("images/mainImage2.jpg") fixed repeat-y;
 	background-size: cover;
 	box-sizing:border-box;
@@ -165,7 +165,18 @@ nav a:visited {
 /**************Section2****************/
 #coffeeStoryImg {
 	width:45%;
-	padding: 10% 10% 10% 0;
+	margin: 10% 10% 10% 0;
+	position:relative;
+}
+
+#overlay {
+	-moz-box-shadow:inset 0 0 10px #000000;
+    -webkit-box-shadow:inset 0 0 10px #000000;
+    box-shadow:inset 0 0 10px #000000;
+    position:absolute;
+    width:100%;
+    height:100%;
+    border: 10px solid #262626;
 }
 
 #coffeeStoryImg img {
@@ -178,7 +189,8 @@ nav a:visited {
 	padding: 10% 0;
 }
 
-/**************Section2****************/
+
+/**************Section3****************/
 #section3 {
 	background-color:#393939;
 	text-align:center;
