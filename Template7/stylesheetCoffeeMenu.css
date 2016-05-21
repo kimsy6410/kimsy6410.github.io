@@ -21,7 +21,7 @@ article {
 	background-color: rgba(255,255,255,0.8);
   color:#342926;
   padding:10% 0;
-  width:70%;
+  /*width:70%;*/
 }
 
 div.innerWrapper {
@@ -63,6 +63,7 @@ div.coffeeMenuRow:hover div.line {
 div.coffeeMenuName {
   margin-right:10px;
   float:left;
+  width:100px;
 }
 
 div.line {
@@ -75,9 +76,14 @@ div.line {
 
 div.coffeeMenuPrice {
   float:right;
+  text-align:right;
 }
 
 div.coffeeExplaination {
   clear:both;
   font-style: italic;
+}
+
+h2#espressoBar {
+  padding-top:30px;
 }
