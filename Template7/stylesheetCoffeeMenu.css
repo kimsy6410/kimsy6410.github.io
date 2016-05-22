@@ -45,18 +45,20 @@ div.coffeeMenu {
   /*display:table;*/
 }
 
-div.coffeeMenuRow {
+a.coffeeMenuRow {
   padding:10px 0;
+  display:block;
+  color:#342926;
 }
 
-div.coffeeMenuRow:hover {
+a.coffeeMenuRow:hover {
   padding:10px 0;
   background-color:rgba(143,143,143,0.8);
   color:#EAEAEA;
   cursor: pointer;
 }
 
-div.coffeeMenuRow:hover div.line {
+a.coffeeMenuRow:hover div.line {
   border-bottom: 1px dashed #EAEAEA;
 }
 
@@ -86,4 +88,18 @@ div.coffeeExplaination {
 
 h2#espressoBar {
   padding-top:30px;
+}
+
+#overlay {
+  background:rgba(0,0,0,0.7);
+  width:100%;
+  /*height:100%;*/
+  position:absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  /*display:none;*/
+  text-align:center;
+  border:0;
 }
